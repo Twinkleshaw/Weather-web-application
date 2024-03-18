@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(30, 28, 28);
+}
+.search{
+   max-width: 350px;
+    width: 90%;
+    border: 2px solid rgb(27, 77, 228);
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px ;
+    background:linear-gradient(rgb(12, 142, 216), rgb(162, 188, 245),rgb(56, 117, 215));
+    text-align: center;
+}
+
+.card input{
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+}
+.but{
+    height: 0px;
+    width: 0px;
+   border-radius: 100%;
+   
+
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather{
+    height: 100px;
+     width: 100px;
+     margin-top: 20px;
+}
+.details{
+    display: none;
+}
+.error{
+    font-size: small;
+    margin-top: 10px;
+    display: none;
+}
